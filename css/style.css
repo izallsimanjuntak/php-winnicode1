@@ -1,0 +1,22 @@
+.input-group .form-control {
+    background-color: aliceblue; /* Warna biru */
+    color: #FF66C4; /* Warna teks putih */
+    border-radius: 15px 0 0 15px; /* Melengkung di kiri */
+    border: none; /* Hilangkan garis batas */
+}
+
+.input-group .form-control::placeholder {
+    color: #d9d9d9; /* Warna placeholder */
+}
+
+.input-group .btn {
+    border-radius: 0 15px 15px 0; /* Melengkung di kanan */
+    background-color: #f8f9fa; /* Warna putih pada tombol */
+    color: #007bff; /* Warna biru pada ikon */
+    border: none; /* Hilangkan garis batas */
+}
+
+.input-group .btn:hover {
+    background-color: #e2e6ea; /* Warna hover pada tombol */
+    color: #0056b3; /* Warna biru lebih gelap */
+}

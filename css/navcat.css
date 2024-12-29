@@ -1,0 +1,20 @@
+.custom-card {
+    width: 100%; /* Atur lebar card, misalnya 50% dari parent */
+    margin: 0 auto; /* Pusatkan card jika lebar tidak penuh */
+}
+
+.custom-card img {
+    height: 300px; /* Sesuaikan tinggi gambar */
+    object-fit: cover; /* Hindari distorsi gambar */
+}
+
+.sidebar {
+    position: fixed; /* Sidebar tetap di tempat saat scroll */
+    right: 0; /* Pindahkan sidebar ke sisi kanan */
+    top: 0; /* Atur jarak dari atas */
+    width: 250px; /* Lebar sidebar */
+    height: 100%; /* Tinggi sidebar penuh */
+    background-color: #f8f9fa; /* Warna latar belakang */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Bayangan untuk estetika */
+    overflow-y: auto; /* Scroll jika konten melebihi tinggi */
+}
